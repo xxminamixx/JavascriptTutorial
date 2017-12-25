@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <!-- jsファイルのインポート -->
+  <script type="text/javascript" src="clickManager.js"></script>
+  <script type="text/javascript" src="asyncManager.js"></script>
+  <title>Sample</title>
+</head>
+<body>
+  <!-- ボタン -->
+  <input type="button" value="テキスト" onclick="reWrite(0)">
+  <input type="button" value="HTMLタグ" onclick="reWrite(1)">
+  <input type="button" value="ログ" onclick="asyncLog">
+
+  <div id="str">このタグの中身を書き換えます。</div>
+
+</body>
+</html>
